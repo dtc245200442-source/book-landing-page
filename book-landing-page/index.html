@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bookly - Giới thiệu sách</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- File CSS của dự án -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#home">Bookly.</a>
+
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#overview">Book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#author">Author</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#prices">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reviews">Reviews</a>
+                        </li>
+                    </ul>
+                    <a href="#download" class="btn btn-warning ms-lg-3">
+                        Get the Book
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. BOOK OVERVIEW -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-md-6">
+                        <p class="text-uppercase fw-bold text-warning">
+                            Discover your next favorite book
+                        </p>
+
+                        <h1 class="display-3 fw-bold">
+                            Unlock Your <span>Potential</span>
+                        </h1>
+
+                        <p class="lead mt-4">
+                            Một cuốn sách truyền cảm hứng giúp bạn phát triển
+                            bản thân, xây dựng thói quen tốt và tiến gần hơn
+                            đến những mục tiêu của mình.
+                        </p>
+
+                        <a href="#prices" class="btn btn-warning btn-lg mt-3">
+                            Explore the Book
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 text-center">
+                        <img
+                            src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=700&q=85"
+                            alt="Bìa sách giới thiệu"
+                            class="book-cover img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="overview" class="section-padding bg-light">
+            <div class="container text-center">
+                <h2 class="section-title">About The Book</h2>
+                <p class="section-subtitle">
+                    A guide to a better version of yourself.
+                </p>
+
+                <div class="row justify-content-center mt-4">
+                    <div class="col-lg-8">
+                        <p>
+                            Unlock Your Potential là cuốn sách mẫu dành cho
+                            những ai muốn khám phá khả năng của bản thân.
+                            Qua những câu chuyện và bài học thực tế, bạn có
+                            thể học cách quản lý thời gian, duy trì động lực
+                            và từng bước hoàn thiện chính mình.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. AUTHOR -->
+        <section id="author" class="section-padding">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-md-5 text-center">
+                        <img
+                            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=85"
+                            alt="Chân dung tác giả"
+                            class="author-image img-fluid">
+                    </div>
+
+                    <div class="col-md-7">
+                        <p class="text-warning fw-bold">MEET THE AUTHOR</p>
+                        <h2 class="section-title">Alex Morgan</h2>
+
+                        <p>
+                            Alex Morgan là nhân vật tác giả minh họa cho
+                            dự án. Anh yêu thích việc đọc sách, phát triển
+                            bản thân và chia sẻ kiến thức hữu ích với cộng đồng.
+                        </p>
+
+                        <p>
+                            Cuốn sách mang đến những gợi ý đơn giản để người
+                            đọc xây dựng tư duy tích cực và tạo ra sự thay đổi
+                            trong cuộc sống hằng ngày.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. FEATURES -->
+        <section id="features" class="section-padding bg-light">
+            <div class="container text-center">
+                <p class="text-warning fw-bold">WHY READ THIS BOOK?</p>
+                <h2 class="section-title">Book Features</h2>
+
+                <div class="row g-4 mt-3">
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="feature-icon">📚</div>
+                            <h4>Easy to Read</h4>
+                            <p>
+                                Nội dung rõ ràng, dễ hiểu và phù hợp
+                                với người mới bắt đầu.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="feature-icon">💡</div>
+                            <h4>Practical Ideas</h4>
+                            <p>
+                                Những ý tưởng có thể áp dụng vào
+                                học tập và cuộc sống hằng ngày.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="feature-icon">🚀</div>
+                            <h4>Personal Growth</h4>
+                            <p>
+                                Hỗ trợ xây dựng thói quen tốt và
+                                phát triển bản thân từng ngày.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PRICES -->
+        <section id="prices" class="section-padding">
+            <div class="container text-center">
+                <p class="text-warning fw-bold">CHOOSE YOUR EDITION</p>
+                <h2 class="section-title">Book Prices</h2>
+
+                <div class="row g-4 mt-3">
+                    <div class="col-md-4">
+                        <div class="price-card">
+                            <h4>eBook</h4>
+                            <h2 class="price">$9.99</h2>
+                            <p>Phiên bản đọc trên thiết bị điện tử</p>
+                            <ul>
+                                <li>PDF format</li>
+                                <li>Read anytime</li>
+                                <li>Instant access</li>
+                            </ul>
+                            <a href="#download"
+                               class="btn btn-outline-primary">
+                                Choose Plan
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="price-card featured-price">
+                            <span class="badge text-bg-warning mb-3">
+                                Popular
+                            </span>
+                            <h4>Paperback</h4>
+                            <h2 class="price">$19.99</h2>
+                            <p>Phiên bản sách in</p>
+                            <ul>
+                                <li>Printed edition</li>
+                                <li>Quality paper</li>
+                                <li>Great gift</li>
+                            </ul>
+                            <a href="#download" class="btn btn-warning">
+                                Choose Plan
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="price-card">
+                            <h4>Premium</h4>
+                            <h2 class="price">$29.99</h2>
+                            <p>Gói sách và tài liệu bổ sung</p>
+                            <ul>
+                                <li>eBook edition</li>
+                                <li>Bonus workbook</li>
+                                <li>Extra resources</li>
+                            </ul>
+                            <a href="#download"
+                               class="btn btn-outline-primary">
+                                Choose Plan
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. DOWNLOAD -->
+        <section id="download" class="download-section section-padding">
+            <div class="container text-center">
+                <h2 class="fw-bold">Get Your Copy Today!</h2>
+                <p class="lead">
+                    Bắt đầu hành trình phát triển bản thân ngay hôm nay.
+                </p>
+
+                <a href="#prices" class="btn btn-warning btn-lg mt-3">
+                    View Book Editions
+                </a>
+
+                <p class="small mt-3">
+                    * Đây là trang demo. Chưa có tệp sách thật để tải xuống.
+                </p>
+            </div>
+        </section>
+
+        <!-- 7. READER'S SAY -->
+        <section id="reviews" class="section-padding bg-light">
+            <div class="container text-center">
+                <p class="text-warning fw-bold">TESTIMONIALS</p>
+                <h2 class="section-title">What Readers Say</h2>
+
+                <div class="row g-4 mt-3">
+                    <div class="col-md-4">
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p>
+                                "Nội dung dễ hiểu và giúp tôi có thêm
+                                động lực trong học tập."
+                            </p>
+                            <h5>Minh Anh</h5>
+                            <small>Student</small>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p>
+                                "Tôi thích cách cuốn sách đưa ra những
+                                gợi ý đơn giản, thực tế."
+                            </p>
+                            <h5>Hoàng Nam</h5>
+                            <small>Reader</small>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p>
+                                "Một thiết kế sách thú vị, truyền tải
+                                thông điệp tích cực."
+                            </p>
+                            <h5>Thu Hà</h5>
+                            <small>Book Lover</small>
+                        </div>
+                    </div>
+                </div>
+                <p class="small mt-3">
+                    * Các nhận xét trên là nội dung minh họa cho bài tập.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- 8. FOOTER -->
+    <footer class="footer">
+        <div class="container text-center">
+            <h3 class="fw-bold">Bookly.</h3>
+            <p>A good book can change your life.</p>
+
+            <div class="footer-links">
+                <a href="#overview">About</a>
+                <a href="#author">Author</a>
+                <a href="#features">Features</a>
+                <a href="#prices">Prices</a>
+            </div>
+
+            <hr>
+            <p class="mb-0">
+                &copy; <span id="year"></span> Bookly. Student Project.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- File JavaScript của dự án -->
+    <script src="script.js"></script>
+</body>
+</html>
